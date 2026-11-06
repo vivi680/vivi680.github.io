@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Netherbrain KC Bridge is an owner-operated desktop workflow for private Google Drive transfers using OAuth and rclone.">
+  <title>Netherbrain KC Bridge — Private Google Drive workflow</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html"><span>KC</span>Netherbrain KC Bridge</a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="wrap hero">
+      <p class="eyebrow">Owner-operated desktop integration</p>
+      <h1>A small, private bridge to Google Drive.</h1>
+      <p class="lead">Netherbrain KC Bridge is a personal desktop workflow that helps its owner transfer selected project reports and manifests between a local Kali Linux computer and the owner's Google Drive using rclone and Google OAuth.</p>
+      <a class="button" href="privacy.html">Read the privacy policy</a>
+      <a class="button button-secondary" href="terms.html">Terms of use</a>
+    </section>
+    <section class="wrap section" aria-labelledby="how-it-works">
+      <h2 id="how-it-works">How the integration works</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>1. Owner authorizes access</h3>
+          <p>The owner signs in through Google's OAuth consent flow on the local device. This site does not handle sign-in or receive OAuth tokens.</p>
+        </article>
+        <article class="card">
+          <h3>2. Limited Drive scope</h3>
+          <p>The integration requests the <code>drive.file</code> scope, limited to files created or opened with the application, rather than unrestricted access to all Drive files.</p>
+        </article>
+        <article class="card">
+          <h3>3. Private files stay private</h3>
+          <p>Selected technical artifacts are transferred into the owner's private Drive storage. This public website does not publish or display those files.</p>
+        </article>
+      </div>
+    </section>
+    <section class="wrap section">
+      <div class="notice">
+        <h2>About this website</h2>
+        <p>This is an informational website for a private, owner-supervised development tool. It is not a public file-sharing service, does not accept uploads, and does not provide a public API or account registration.</p>
+        <p lang="es">Este sitio describe una herramienta personal de transferencia de archivos privados. No publica documentos del proyecto ni permite que terceros accedan a Google Drive.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap footer-inner">
+      <span>Netherbrain KC Bridge · Owner-operated tool</span>
+      <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="https://github.com/vivi680/vivi680.github.io/issues">Contact via GitHub Issues</a></span>
+    </div>
+  </footer>
+</body>
+</html>
